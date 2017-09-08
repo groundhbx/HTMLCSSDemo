@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+}
+/*.main{*/
+    /*width: 1200px;*/
+    /*height: 800px;*/
+    /*background-color: transparent;*/
+    /*border: 1px solid red;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+/*}*/
+.sun{
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    background-color: orangered;
+    border-radius: 50%;
+    box-shadow: 0 0 15px orange;
+    position: absolute;
+}
+/*水星轨道*/
+.sxg{
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    top: 50%;
+    margin-left: -60.5px;
+    margin-top: -60.5px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.sx{
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    top: 50%;
+    margin-left: -48px;
+    margin-top: -48px;
+    border-radius: 50%;
+    background-color: snow;
+    position: absolute;
+    transform-origin: 48px 48px;
+    animation: rotate 1.5s infinite linear;
+}
+.jxg{
+    width: 215px;
+    height: 215px;
+    left: 50%;
+    top: 50%;
+    margin-left: -108px;
+    margin-top: -108px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.jx{
+    width: 22px;
+    height: 22px;
+    left: 50%;
+    top: 50%;
+    margin-left: -87px;
+    margin-top: -87px;
+    border-radius: 50%;
+    background-color: #F69D61;
+    position: absolute;
+    transform-origin: 87px 87px;
+    animation: rotate 3.8s infinite linear;
+}
+.dqg{
+    width: 310px;
+    height: 310px;
+    left: 50%;
+    top: 50%;
+    margin-left: -155.5px;
+    margin-top: -155.5px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.dq{
+    width: 18px;
+    height: 18px;
+    left: 50%;
+    top: 50%;
+    margin-left: -119px;
+    margin-top: -119px;
+    border-radius: 50%;
+    background-color: #7372AE;
+    position: absolute;
+    transform-origin: 119px 119px;
+    animation: rotate 6.2s infinite linear;
+}
+.hxg{
+    width: 405px;
+    height: 405px;
+    left: 50%;
+    top: 50%;
+    margin-left: -203px;
+    margin-top: -203px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.hx{
+    width: 15px;
+    height: 15px;
+    left: 50%;
+    top: 50%;
+    margin-left: -151px;
+    margin-top: -151px;
+    border-radius: 50%;
+    background-color: #8C773F;
+    position: absolute;
+    transform-origin: 151px 151px;
+    animation: rotate 11.7s infinite linear;
+}
+.mxg{
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin-left: -250.5px;
+    margin-top: -250.5px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.mx{
+    width: 42px;
+    height: 42px;
+    left: 50%;
+    top: 50%;
+    margin-left: -198px;
+    margin-top: -198px;
+    border-radius: 50%;
+    background-color: #9CA48F;
+    position: absolute;
+    transform-origin: 198px 198px;
+    animation: rotate 74s infinite linear;
+}
+.txg{
+    width: 595px;
+    height: 595px;
+    left: 50%;
+    top: 50%;
+    margin-left: -298px;
+    margin-top: -298px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.tx{
+    width: 26px;
+    height: 26px;
+    left: 50%;
+    top: 50%;
+    margin-left: -224px;
+    margin-top: -224px;
+    border-radius: 50%;
+    background-color: #9CA48F;
+    position: absolute;
+    transform-origin: 224px 224px;
+    animation: rotate 184s infinite linear;
+}
+.twxg{
+    width: 690px;
+    height: 690px;
+    left: 50%;
+    top: 50%;
+    margin-left: -345.5px;
+    margin-top: -345.5px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    background-color: transparent;
+    position: absolute;
+}
+.twx{
+    width: 27px;
+    height: 27px;
+    left: 50%;
+    top: 50%;
+    margin-left: -257px;
+    margin-top: -257px;
+    border-radius: 50%;
+    background-color: #A4C0CE;
+    position: absolute;
+    transform-origin: 257px 257px;
+    animation: rotate 524.6s infinite linear;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+
+}

@@ -1,0 +1,223 @@
+body{
+	margin-top: 50px;
+}
+nav{
+	background: url(../img/nav-bg.png);
+}
+.navbar-brand{
+	width: 180px;
+	height: 50px;
+	display: block;
+	background: url(../img/logo.png);
+	background-size: 100%;
+}
+.navbar-nav{
+	margin-left: 6%;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	background: url(../img/nav-bg.png);
+	border-bottom: 4px solid darkcyan;
+	padding-bottom: 6px;
+	color: dodgerblue;
+}
+.navbar-default .navbar-nav li>a:hover,
+.navbar-default .navbar-nav li>a:focus{
+	border-bottom: 4px solid darkcyan;
+	padding-bottom: 6px;
+	color: dodgerblue;
+}
+.nav>li>a{
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.header-form{
+	float: right;
+	margin-top: 12px;
+}
+.header-form input{
+	height: 26px;
+	border-radius: 10px;
+}
+.header-form button{
+	height: 26px;
+	border-radius: 50px;
+	margin-left: -38px;
+	padding: 6px 10px;
+	border: none;
+	color: white;
+	background-color: red;
+}
+.banner{
+	position: relative;
+	height: 650px;
+}
+.banner .item{
+	height: 650px;
+}
+.banner .item img{
+	height: 650px;
+	width: 100%;
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+}
+.content .container{
+	width: 100%;
+}
+.panel{
+	width: 100%;
+	float: left;
+}
+.panel-heading-one,.panel-heading-three{
+	background: url(../img/blue-bg.png);
+	background-size: 80%;
+}
+.panel-heading-two{
+	background: url(../img/black-bg.png);
+	background-size: 80%;
+}
+.panel-title,.panel-title a{
+	color: white;
+	font-weight: bold;
+}
+.panel-body .media{
+	height: auto;
+}
+.panel-body .media-second{
+	height: auto;
+}
+.media-object-small{
+	width: 120px;
+	height: 100px;
+}
+.media-object-big{
+	height: 118px;
+	width: 100%;
+}
+.media-body a{
+	width: 110px;
+	height: 20px;
+	display: inline-block;
+	float: right;
+}
+.media-body-second .media-heading{
+	color: blue;
+	font-weight: bold;
+}
+.divider-line{
+	margin: 10px 0;
+	width: 100%;
+	height: 1px;
+	border: 1px dashed darkmagenta;
+}
+
+.btns{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.btns button{
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.footer{
+	height: 50px;
+	line-height: 50px;
+	background: url(../img/footer-bg.png);
+	background-size: 150%;
+}
+.footer p{
+	float: left;
+	color: darkcyan;
+}
+.footer ul{
+	float: right;
+}
+.footer ul li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+.footer ul li>a{
+	color: darkcyan;
+}
+.footer ul li>a:hover,
+.footer ul li>a:focus{
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+@media (max-width: 1200px ) {
+	.footer{
+		margin-top: 70px;
+	}
+	.nav>li>a{
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 1024px ) {
+	.footer{
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 992px ) {
+	.footer{
+		margin-top: 650px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 768px) and (min-width:320px){
+	.navbar-collapse{
+		background-color: white;
+	}
+	.navbar-collapse ul{
+		margin: 0;
+	}
+	.navbar-default .navbar-nav>.active>a, 
+	.navbar-default .navbar-nav>.active>a:focus, 
+	.navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav li>a:hover,
+	.navbar-default .navbar-nav li>a:focus{
+		background: white;
+		color: dodgerblue;
+	}
+	.navbar-nav{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.nav>li>a{
+		padding-right: 0px;
+		padding-left: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.header-form{
+		margin-top: 12px;
+		float: left;
+		width: 100%;
+		display: inline-block;
+	}
+	.header-form .form-group{
+		display: inline-block;
+	}
+	.header-form .form-group input{
+		width: 300px;
+	}
+	.footer{
+		margin-top: 800px;
+		font-size: 10px;
+	}
+}

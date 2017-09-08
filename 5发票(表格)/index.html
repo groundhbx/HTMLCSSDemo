@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>发票</title>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html{
+			100%
+		}
+		body{
+			100%
+		}
+		.main{
+			position: relative;
+		}
+		.fapiao-one{
+			width: 1000px;
+			height: 497px;
+			position: absolute;
+			top: 100px;
+			left: 20%;
+			border: 2px solid #333333;
+			background: #E0FFFF;
+			box-shadow: 10px 10px 15px 0.5px #333333;
+			transform: rotate(-5deg);
+		}
+		.fapiao-two{
+			width: 1000px;
+			height: 497px;
+			position: absolute;
+			top: 250px;
+			left: 20%;
+			border: 2px solid #333333;
+			background: #E0FFFF;
+			box-shadow: 10px 10px 15px 0.5px #333333;
+			transform: rotate(10deg);
+			z-index: 1;
+		}
+			.fapiao-one table,.fapiao-two table{
+				width: 100%;
+				height: 400px;
+				border-collapse: collapse;
+				border-spacing: 0;	
+			}
+			th{
+				border: 1px solid #333;
+				letter-spacing: 1em;
+			}
+			td{
+				border: 1px solid #333;
+				text-align: center;
+				letter-spacing: 10px;
+				padding-left: 5px;
+			}
+			.daxie{
+				letter-spacing: 15px;
+			}
+			
+			caption p:nth-child(1){
+				width: 350px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				color: #3B3B3B;
+				font-size: 25px;
+				font-weight: bold;
+				letter-spacing: 30px;
+				border-bottom: 3px solid #333333;
+			}
+			caption p:nth-child(2){
+				padding: 10px ;
+				text-align: right;
+				font-size: 18px;
+				font-weight: 200;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="fapiao-one">
+				<table>
+					<caption>
+						<p>费用报销单</p>
+						<p>报销日期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;附件
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;张</p>
+					</caption>
+					<tbody>
+						<tr>
+							<td colspan="4">费用项目</td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td>类别</td>
+							<td>金额</td>
+							<td colspan="2" rowspan="2">负责人(盖章)</td>
+							<!--<td></td>-->
+							<td colspan="2" rowspan="2">                   </td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4">  </td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<td colspan="2" rowspan="2">审核意见</td>
+							<!--<td></td>-->
+							<td colspan="2" rowspan="2">                </td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<td colspan="2" rowspan="2">报销人(签章)</td>
+							<!--<td></td>-->
+							<td colspan="2" rowspan="2">                 </td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4">报销金额总计</td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<td colspan="2">￥</td>
+							<!--<td></td>-->
+							<td colspan="2"></td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="10" class="daxie">核实金额(大写) 佰 拾 万 仟 佰 拾 元 角 分 ￥</td>
+							<!--<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="1">借款数</td>
+							<!--<td></td>-->
+							<td colspan="2">  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;    </td>
+							<!--<td></td>-->
+							<td colspan="1.5">应退金额</td>
+							<!--<td></td>-->
+							<td colspan="2">    &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;   &nbsp;       </td>
+							<!--<td></td>-->
+							<td colspan="1.5">应补金额</td>
+							<!--<td></td>-->
+							<td colspan="2">     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;       </td>
+							<!--<td></td>-->
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="fapiao-two">
+				<table>
+					<caption>
+						<p>费用报销单</p>
+						<p>报销日期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;附件
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;张</p>
+					</caption>
+					<tbody>
+						<tr>
+							<td colspan="4">费用项目</td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td>类别</td>
+							<td>金额</td>
+							<td colspan="2" rowspan="2">负责人(盖章)</td>
+							<!--<td></td>-->
+							<td colspan="2" rowspan="2">                   </td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4">  </td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<td colspan="2" rowspan="2">审核意见</td>
+							<!--<td></td>-->
+							<td colspan="2" rowspan="2">                </td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<td colspan="2" rowspan="2">报销人(签章)</td>
+							<!--<td></td>-->
+							<td colspan="2" rowspan="2">                 </td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4"></td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+							<!--<td colspan="2"></td>-->
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="4">报销金额总计</td>
+							<!--<td></td>
+							<td></td>
+							<td></td>-->
+							<td></td>
+							<td></td>
+							<td colspan="2">￥</td>
+							<!--<td></td>-->
+							<td colspan="2"></td>
+							<!--<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="10" class="daxie">核实金额(大写) 佰 拾 万 仟 佰 拾 元 角 分 ￥</td>
+							<!--<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>-->
+						</tr>
+						<tr>
+							<td colspan="1">借款数</td>
+							<!--<td></td>-->
+							<td colspan="2">  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;    </td>
+							<!--<td></td>-->
+							<td colspan="1.5">应退金额</td>
+							<!--<td></td>-->
+							<td colspan="2">    &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;   &nbsp;       </td>
+							<!--<td></td>-->
+							<td colspan="1.5">应补金额</td>
+							<!--<td></td>-->
+							<td colspan="2">     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;       </td>
+							<!--<td></td>-->
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

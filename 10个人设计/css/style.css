@@ -1,0 +1,512 @@
+/*初始化*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*第一页*/
+.firstPage{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.firstPage-bg{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg_1.jpg) no-repeat;
+	background-size: cover;
+	filter: blur(3px);
+	position: absolute;
+	
+}
+.firstPage-content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 25%;
+	top: 30%;
+}
+.sayHello{
+	font-family: cursive,'Lato', sans-serif;
+    font-size:65px;
+    font-style:normal;
+    color: 	#C0C0C0;
+}
+.myself{
+	width: 100%;
+	height: 50px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #C0C0C0;
+	text-align: left;
+	margin: 40px 220px;
+}
+.firstPage-btns{
+	position: absolute;
+	left: 200px;
+	top: 220px;
+	
+}
+.firstPage-btns li{
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #C0C0C0;
+	border: 1px solid #C0C0C0;
+	border-radius: 5px;
+	float: left;
+	margin-right: 100px;
+	transition: ease 2s; 
+}
+.firstPage-btns li a{
+	color: #C0C0C0;
+}
+.firstPage-btns li:hover{
+	background-color: #383838;
+}
+
+/*第二页*/
+.secondPage{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/bg_3.jpg) no-repeat;
+	background-size: cover;
+}
+.navBar{
+	width: 100%;
+	height: 80px;
+	background: rgb(44,62,80);
+}
+.comWidth{
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo,.logoName{
+	float: left;
+}
+.logo span{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	background: url(../img/jl.png) no-repeat;
+	margin-top: 23px;	
+}
+.logoName{
+	width: 150px;
+	height: 80px;
+	line-height: 80px;
+	color: white;
+	font-family: cursive,'Lato', sans-serif;
+	font-size: 30px;
+	display: inline-block;
+}
+.nav{
+	float: right;
+}
+.nav li{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 20px;
+}
+.nav li a{
+	font-family: "微软雅黑";
+	color: white;
+	font-size: 16px;
+	transition: ease-in-out 1.5s;
+}
+.nav li a:hover{
+	color: red;
+}
+.secondPage-content{
+	height: 90vh;
+}
+.secondPage-header{
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+}
+.secondPage-header p:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: 	rgb(52,73,94);
+	font-size: 35px;
+	font-family: "微软雅黑";
+	letter-spacing: 5px;
+}
+.secondPage-header p:nth-child(2){
+	height: 70px;
+	text-align: center;
+	color: 	#FF99FF;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	letter-spacing: 3px;
+}
+.secondPage-main{
+	width: 100%;
+	height: 70vh;
+	position: relative;
+}
+.photo{
+	width: 25%;
+	height: 70%;
+	border: 1px solid red;
+	position: absolute;
+	top: 70px;
+	left: 150px;
+}
+.myInfo{
+	width: 700px;
+	height: 100%;
+	position: absolute;
+	top: -10px;
+	right: 20px;
+}
+.myInfo ul{
+	margin-bottom: 20px;
+}
+.myInfo ul:first-child{
+	margin-top: 20px;
+}
+.myInfo ul li{
+	margin-bottom: 5px;
+}
+.myInfo ul li:nth-child(1){
+	font-size: 1.3em;
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	letter-spacing: 2px;
+	color: rgb(33,33,33);
+}
+.myInfo ul li:nth-child(2){
+	font-size: 0.95em;
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	letter-spacing: 1px;
+	color: rgb(130,126,126);
+}
+.myInfo hr{
+	width: 90%;
+	height: 1px;
+	border: 1px dashed #FF99FF;
+	margin-bottom: 5px;
+}
+
+/*第三页*/
+.thirdPage{
+	width: 100%;
+	height: 60vh;
+	background: url(../img/bg_2.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.thirdPage-content{
+	background-color: transparent;
+	position: relative;
+	width:1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.thirdPage-header{
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+}
+.thirdPage-header p:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: 	rgb(52,73,94);
+	font-size: 35px;
+	font-family: "微软雅黑";
+	letter-spacing: 5px;
+}
+.thirdPage-header p:nth-child(2){
+	height: 70px;
+	text-align: center;
+	color: 	#CC00FF;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	letter-spacing: 3px;
+}
+.thirdPage-icons{
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+}
+.thirdPage-icons li{
+	width: 270px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	
+}
+.icon-one{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background: url(../img/diannao.png) no-repeat;
+	background-position: center;
+	border: 2px solid snow;
+	margin-left: 100px;
+	transition: ease 2s;
+}
+.icon-one:hover{
+	background: url(../img/diannao_re.png) no-repeat;
+	background-position: center;
+	border: 2px solid yellow;
+	transform: scale(1.2);
+}
+.icon-two{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background: url(../img/daima.png) no-repeat;
+	background-position: center;
+	border: 2px solid snow;
+	margin-left: 100px;
+	transition: ease 2s;
+}
+.icon-two:hover{
+	background: url(../img/daima_re.png) no-repeat;
+	background-position: center;
+	border: 2px solid yellow;
+	transform: scale(1.2);
+}
+.icon-three{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background: url(../img/gn.png) no-repeat;
+	background-position: center;
+	border: 2px solid snow;
+	margin-left: 100px;
+	transition: ease 2s;
+}
+.icon-three:hover{
+	background: url(../img/gn_re.png) no-repeat;
+	background-position: center;
+	border: 2px solid yellow;
+	transform: scale(1.2);
+}
+.icon-four{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background: url(../img/h5.png) no-repeat;
+	background-position: center;
+	border: 2px solid snow;
+	margin-left: 100px;
+	transition: ease 2s;
+}
+.icon-four:hover{
+	background: url(../img/h5_re.png) no-repeat;
+	background-position: center;
+	border: 2px solid yellow;
+	transform: scale(1.2);
+}
+.icon-one~p,.icon-two~p,.icon-three~p,.icon-four~p{
+	margin-top: 10px;
+}
+.detail-one{
+	font-size: 20px;
+	color: snow;
+}
+.detail-two{
+	font-size: 16px;
+	color: #C0C0C0;
+}
+
+/*第四页*/
+.forthPage{
+	width: 100%;
+	height: 100vh;
+	background: rgb(250,250,250);
+}
+.forthPage-content{
+	position: relative;
+	width:1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.forthPage-header{
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+}
+.forthPage-header p:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: 	rgb(52,73,94);
+	font-size: 35px;
+	font-family: "微软雅黑";
+	letter-spacing: 5px;
+}
+.forthPage-header p:nth-child(2){
+	height: 70px;
+	text-align: center;
+	color: 	#FF99FF;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	letter-spacing: 3px;
+}
+.forthPage-items{
+	width: 1200px;
+	height: 80vh;
+	margin-top: 20px;
+}
+.forthPage-items li{
+	float: left;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border: 5px solid black;
+	margin-left: 40px;
+	margin-top: 30px;
+	transition: ease 2s;
+}
+.forthPage-items li:hover{
+	transform: scale(1.1);
+}
+.forthPage-items li:nth-child(1){
+	background: url(../img/01.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(2){
+	background: url(../img/02.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(3){
+	background: url(../img/03.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(4){
+	background: url(../img/04.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(5){
+	background: url(../img/05.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(6){
+	background: url(../img/06.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(7){
+	background: url(../img/07.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.forthPage-items li:nth-child(8){
+	background: url(../img/08.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*第五页*/
+.seventhPage{
+	width: 100%;
+	height: 60vh;
+	background: url(../img/contactbg.jpg) no-repeat;
+	background-size: 100% 150%;
+}
+.seventhPage-content{
+	position: relative;
+	width:1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.seventhPage-header{
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+}
+.seventhPage-header p:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: 	rgb(52,73,94);
+	font-size: 35px;
+	font-family: "微软雅黑";
+	letter-spacing: 5px;
+}
+.seventhPage-header p:nth-child(2){
+	height: 70px;
+	text-align: center;
+	color: 	#FF99FF;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	letter-spacing: 3px;
+}
+.seventhPage-info{
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+}
+.address,.email,.phone{
+	width: 350px;
+	height: 100%;
+	float: left;
+	margin-left: 35px;
+	color: white;
+}
+.address-icon{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	background: url(../img/address-icon.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.email-icon{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	background: url(../img/email-icon.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.phone-icon{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	background: url(../img/phone-icon.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.address-p-one,.email-p-one,.phone-p-one{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.address-p-two,.email-p-two,.phone-p-two{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}

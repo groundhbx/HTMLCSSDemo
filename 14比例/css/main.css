@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main{
+	width: 700px;
+	height: 400px;
+	margin: 100px auto;
+	background: transparent;
+	position: relative;
+	overflow: hidden;
+}
+.box1{
+	width: 300px;
+	height: 300px;
+	margin: 50px 200px;
+	position: absolute;
+	border: 50px solid rgb(15,177,250);
+	box-sizing: border-box;
+	border-radius: 50%;
+	border-left-color: rgb(15,177,250);
+	border-bottom-color: rgb(15,177,250);
+	transform: rotate(45deg);
+}
+.box2{
+	width: 300px;
+	height: 300px;
+	margin: 50px 200px;
+	position: absolute;
+	border: 50px solid transparent;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border-left-color: rgb(15,177,250);
+	border-bottom-color: rgb(15,177,250);
+	transform: rotate(45deg);
+	background-image: repeating-linear-gradient(90deg, transparent, transparent 1px, rgba(255,255,255,1) 1px, rgba(255,255,255,1) 10px);
+}
+.zj{
+	width: 50px;
+	height: 50px;
+	left: 47%;
+	top: 47%;
+	margin-left: calc(50%-35px);
+	margin-top: calc(50%-25px);
+	position: absolute;
+	color: rgb(15,177,250);
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.linl{
+	width: 100px;
+	height: 1px;
+	border: 1px solid rgb(15,177,250);
+	box-sizing: border-box;
+	position: absolute;
+	left: 100px;
+	top: 200px;
+	transform-origin: 20% 40%;
+	transform: rotate(-45deg);
+}
+

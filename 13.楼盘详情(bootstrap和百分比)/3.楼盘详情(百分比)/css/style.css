@@ -1,0 +1,93 @@
+body{
+	background-color: rgb(238,238,238);
+	box-sizing: border-box;
+}
+.banner .carousel-inner{
+	height: 400px;
+}
+.banner .carousel-inner .item img{
+	width: 100%;
+	height: 400px;
+}
+.btns .container{
+	padding: 10px 30px;
+}
+.btn-one{
+	color: rgb(36,200,102);
+}
+.panel-heading{
+	height: 50px;
+}
+.panel-heading div{
+	font-size: 22px;
+}
+.icon-base{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/icon06.png) no-repeat;
+	background-size: cover;
+}
+
+.icon-house{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/icon01.png) no-repeat;
+	background-size: cover;
+}
+.icon-mess{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/icon04.png) no-repeat;
+	background-size: cover;
+}
+.icon-traffic{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/icon05.png) no-repeat;
+	background-size: cover;
+}
+.icon-mating{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img/icon02.png) no-repeat;
+	background-size: cover;
+}
+.icon-footer{
+	width: 25px;
+	height: 15px;
+	display: inline-block;
+	background: url(../img/up.png) no-repeat;
+	background-size: cover;
+}
+.panel-body div img{
+	width: 100%;
+}
+.panel-body p{
+	padding-top: 5px;
+	letter-spacing: 1px;
+	text-indent: 2em;
+}
+.panel-body p span{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background: url(../img/icon_map.png) no-repeat;
+	background-size: contain;
+}
+.panel-footer{
+	background: snow;
+}
+.panel-footer div{
+	text-align: center;
+}
+.footer{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	color: #2B542C;
+}
