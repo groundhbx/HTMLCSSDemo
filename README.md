@@ -1,6 +1,6 @@
 # HTMLCSSDemo
 
-平常练习的HTML CSS Demo
+平常练习的HTML CSS 一部分Demo
 
 1. http://domyself.coding.me/HTMLCSSDemo/1名片
 
